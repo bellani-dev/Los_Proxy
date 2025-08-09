@@ -1,0 +1,214 @@
+
+.hero {
+  position: relative;
+  background: url('img/datacenter.jpg') center/cover no-repeat;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero .overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 3rem;
+  border-radius: 10px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero .btn {
+  background: #38bdf8;
+  color: #0f172a;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.hero .btn:hover {
+  background: #0ea5e9;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body {
+    background-color: #0c0c0e;
+    color: #ffffff;
+    line-height: 1.6;
+}
+header {
+    background-color: #121216;
+    padding: 20px 0;
+    border-bottom: 1px solid #222;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.los-text, .proxy-text {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+.los-text {
+    color: #00d8ff;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+}
+.proxy-text {
+    color: #fff;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #ccc;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #fff;
+}
+.hero {
+    background: linear-gradient(145deg, #1c1c1e, #121216);
+    padding: 100px 0;
+    text-align: center;
+}
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.hero p {
+    font-size: 18px;
+    color: #aaa;
+    margin-bottom: 40px;
+}
+.btn {
+    background-color: #0070f3;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.btn:hover {
+    background-color: #0059c1;
+}
+.metrics {
+    background-color: #0f0f11;
+    padding: 60px 0;
+}
+.metrics .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    text-align: center;
+}
+.metric h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #00d8ff;
+}
+.metric p {
+    font-size: 16px;
+    color: #aaa;
+}
+footer {
+    background-color: #121216;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+/* ==== FORMULÁRIOS DE LOGIN / CRIAR CONTA ==== */
+.form-container {
+  max-width: 400px;
+  margin: 4rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #0f172a;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-container input {
+  padding: 0.8rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s;
+}
+
+.form-container input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.form-container button {
+  padding: 0.8rem;
+  background: #3b82f6;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.form-container button:hover {
+  background: #2563eb;
+}
+
+.form-container p {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.form-container a {
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.form-container a:hover {
+  text-decoration: underline;
+}
