@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LosProxy - Web Data Infrastructure</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      color: #222;
+      background-color: #f9f9f9;
+    }
+    header {
+      background: #0f172a;
+      color: white;
+      padding: 1rem 0;
+    }
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+    .los-text { color: #3b82f6; }
+    .proxy-text { color: #38bdf8; }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.2rem;
+      margin: 0;
+      padding: 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav a:hover { color: #38bdf8; }
+    .hero {
+      background: linear-gradient(135deg, #3b82f6, #38bdf8);
+      color: white;
+      text-align: center;
+      padding: 5rem 1rem;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .btn {
+      background: #fff;
+      color: #0f172a;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #e2e8f0;
+    }
+    .metrics {
+      background: white;
+      padding: 3rem 1rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1.5rem;
+      text-align: center;
+    }
+    .metric h3 {
+      color: #3b82f6;
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .benefits {
+      background: #f1f5f9;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    .benefits h2 {
+      margin-bottom: 2rem;
+    }
+    .benefit-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .benefit {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    footer {
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo"><span class="los-text">Los</span><span class="proxy-text">Proxy</span></h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Proxies</a></li>
+          <li><a href="#">Preços</a></li>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Criar conta</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h2>Infraestrutura de Coleta de Dados Web de Nível Mundial</h2>
+    <p>Mais de 90 milhões de IPs ativos mundialmente. Flexível por país, região e cidade.</p>
+    <a href="#" class="btn">Comece Agora</a>
+  </section>
+
+  <section class="metrics">
+    <div class="metric">
+      <h3>90M+</h3>
+      <p>IPs residenciais</p>
+    </div>
+    <div class="metric">
+      <h3>99.5%</h3>
+      <p>Taxa de sucesso</p>
+    </div>
+    <div class="metric">
+      <h3>0.6s</h3>
+      <p>Tempo de resposta</p>
+    </div>
+    <div class="metric">
+      <h3>24/7</h3>
+      <p>Suporte técnico</p>
+    </div>
+  </section>
+
+  <section class="benefits">
+    <h2>Por que escolher a LosProxy?</h2>
+    <div class="benefit-list">
+      <div class="benefit">
+        <h3>Conexões Seguras</h3>
+        <p>Proteja suas requisições e mantenha o anonimato total.</p>
+      </div>
+      <div class="benefit">
+        <h3>Escalabilidade</h3>
+        <p>De pequenos projetos a grandes operações, temos a solução.</p>
+      </div>
+      <div class="benefit">
+        <h3>Controle Total</h3>
+        <p>Escolha IPs por país, estado ou cidade para máxima precisão.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 LosProxy. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
